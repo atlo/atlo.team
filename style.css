@@ -168,7 +168,7 @@ a {
 section {
   width: 100%;
   max-width: 1720px;
-  margin-bottom: 25px;
+  margin: 0 auto 25px;
   border-bottom: 1px solid black;
   padding-bottom: 125px;
 }
