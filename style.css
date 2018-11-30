@@ -88,6 +88,7 @@ a {
 }
 
 .logo img {
+  display: none;
   width: 156px;
   height: 35px;
 }
@@ -182,7 +183,7 @@ section {
 }
 
 .projects h2 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
