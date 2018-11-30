@@ -52,6 +52,7 @@ h2.subtitle {
 
 img {
   display: block;
+  width: 100%;
 }
 
 hr {
@@ -65,7 +66,7 @@ a {
 }
 
 .container {
-  width: 100%;
+  width: 95%;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -160,7 +161,11 @@ a {
   padding: 0;
 }
 
-.hero {
+.social-button img {
+  width: auto;
+}
+
+section {
   width: 100%;
   max-width: 1720px;
   margin-bottom: 25px;
@@ -181,6 +186,7 @@ a {
   margin-bottom: 20px;
 }
 
+.members > h2,
 .projects > h2 {
   margin-bottom: 130px;
 }
@@ -199,6 +205,10 @@ a {
 
 .projects li:first-of-type img {
   margin-top: -250px;
+}
+
+.members li {
+  padding: 0 5px;
 }
 
 .navigation a {
