@@ -95,8 +95,9 @@ a {
 }
 
 .align-space-between {
- /*  display: flex;
-  align-content: space-between; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo {
