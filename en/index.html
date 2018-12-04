@@ -20,14 +20,14 @@
   <meta name="description" content="">
   <link rel="icon" type="image/png" href="https://pomodo.ro/images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <header>
     <div class="container inline">
       <div class="inline">
-        <a href="https://pomodo.ro" class="logo">
-          <img src="images/atlo.png" alt="Átló logó">
+        <a href="https://pomodo.ro/en" class="logo">
+          <img src="../images/atlo.png" alt="Átló logó">
         </a>
         <button class="hamburger hamburger--collapse" type="button">
           <span class="hamburger-box">
@@ -38,85 +38,81 @@
       <nav class="inline mobile-hide">
         <ul class="navigation inline">
           <li>
-            <a href="#projects" class="navigation-link">projektek</a>
+            <a href="#projects" class="navigation-link">projects</a>
           </li>
           <li>
-            <a href="#members" class="navigation-link">a csapat</a>
+            <a href="#members" class="navigation-link">about</a>
           </li>
           <li>
-            <a href="mailto:info@atlo.team">kontakt</a>
+            <a href="mailto:info@atlo.team">contact</a>
           </li>
           <li>
             <a href="https://adatujsagiras.atlatszo.hu/" target="_blank" rel="noopener">datablog</a>
           </li>
           <li>
-            <a href="https://pomodo.ro/en">hu/en</a>
+            <a href="https://pomodo.ro/">hu/en</a>
           </li>
         </ul>
         <ul class="social-buttons inline">
           <li>
             <button class="social-button facebook" type="button">
-              <img src="images/share/logo_facebook.svg" alt="facebook logó">
+              <img src="../images/share/logo_facebook.svg" alt="facebook logó">
             </button>
           </li>
           <li>
             <button class="social-button tumblr" type="button">
-              <img src="images/share/logo_tumblr.svg" alt="tumblr logó">
+              <img src="../images/share/logo_tumblr.svg" alt="tumblr logó">
             </button>
           </li>
           <li>
             <button class="social-button twitter" type="button">
-              <img src="images/share/logo_twitter.svg" alt="twitter logó">
+              <img src="../images/share/logo_twitter.svg" alt="twitter logó">
             </button>
           </li>
         </ul>
       </nav>
     </div>
   </header>
-  <section class="hero">
+  <section class="hero" id="hero">
     <div class="container">
       <div class="col-4">
         <h1 class="title">
-          <img src="images/atlo.png" alt="Átló logó">
+          <img src="../images/atlo.png" alt="Átló logó">
         </h1>
         <h2 class="subtitle">a data visualisation studio</h2>
-        <p>Az ATLO adatalapú vizuális médiatartalmak kitalálásával és elkészítésével foglalkozó csapat. Munkánk során egyszerű és összetett adatvizualizációkat, térképeket és információgrafikákat készítünk. Célunk, hogy érdekes, izgalmas és fontos témákat dolgozzunk fel az adatgrafika módszerével. Az ATLO munkacsoportot az Átlátszó oknyomozó központ finanszírozza. Ha van egy jó ötleted, keress bennünket bátran és dolgozzunk együtt.</p>
+        <p>ATLO is a Budapest-based data journalism and visual content team powered by investigative journalism center Átlátszó. We create data-related graphic content, data visualizations, information graphics and thematic maps. If you have any interesting idea or important topic, just contact us and let’s work together. </p>
       </div>
     </div>
   </section>
   <section class="projects" id="projects">
     <div class="container">
-      <h2>Projektek</h2>
+      <h2>Projects</h2>
       <ul>
         <li class="inline">
           <div class="col-4">
-            <h2>
-              <a href="https://atlo.team/novekvo-varosok">Növekvő városok</a>
-            </h2>
-            <p>Hogyan nőttek Magyarország megyeszékhelyei 1780 és 2018 között.</p>
+            <h2>Growing Cities</h2>
+            <p>How Hungary’s county-capitals have grown between 1780 and 2018.</p>
             <hr>
           </div>
           <div class="col-7">
-            <img class="parallax" src="images/projects/varosok_810_800.png" alt="">
+            <img class="parallax" src="../images/projects/varosok_810_800.png" alt="">
           </div>
         </li>
-        <li class="inline">
-          <div class="col-5 mobile-hide">
-            <img class="parallax" src="images/projects/temeto_576_800.png" alt="">
+        <li class="inline mobile-hide">
+          <div class="col-5">
+            <img class="parallax" src="../images/projects/temeto_576_800.png" alt="">
           </div>
           <div class="col-1"></div>
           <div class="col-4 align-space-between">
             <div>
-              <h2>
-                <a href="https://atlo.team/a-holtakra-epitett-varos/">A holtakra épített város</a>
-              </h2>
-              <p>Budapest temetőinek és temetkezéseinek története a középkortól napjainkig.</p>
+              <h2>The City Built on Dead</h2>
+              <p>The history of cemeteries and burials of Budapest from the middle ages.</p>
               <hr>
             </div>
-            <img class="parallax" src="images/projects/temeto_459_400.png" alt="">
-          </div>
-          <div class="col-5 mobile-show">
-            <img class="parallax" src="images/projects/temeto_576_800.png" alt="">
+            <img class="parallax" src="../images/projects/temeto_459_400.png" alt="">
+            <div class="col-5 mobile-show">
+              <img class="parallax" src="../images/projects/temeto_459_400.png" alt="">
+            </div>
           </div>
           <div class="col-2"></div>
         </li>
@@ -125,45 +121,51 @@
   </section>
   <section class="members" id="members">
     <div class="container">
-      <h2>A csapat</h2>
+      <h2>Members</h2>
       <ul class="inline">
         <li class="col-2">
           <p>
-            <strong>Bátorfy Attila</strong><br>
-            projekt- és tartalomvezető
+            <strong>Attila Bátorfy</strong>
+            <br>
+            head of project and content
           </p>
         </li>
         <li class="col-2">
           <p>
-            <strong>Mikola Bence</strong><br>
-            tervezőgrafikus, adatvizualizációs szakember
+            <strong>Bence Mikola</strong>
+            <br>
+            graphic designer
           </p>
         </li>
         <li class="col-2">
           <p>
-            <strong>Horváth László</strong><br>
-            fejlesztő
+            <strong>László Horváth </strong>
+            <br>
+            developer
           </p>
         </li>
         <li class="col-2">
           <p>
-            <strong>Tremmel Márk</strong><br>
-            adatújságíró
+            <strong>Márk Tremmel </strong>
+            <br>
+            data journalist
           </p>
         </li>
         <li class="col-2">
           <p>
-            <strong>Kovács Blanka</strong><br>
-            adatújságíró
+            <strong>Blanka Kovács </strong>
+            <br>
+            data journalist
           </p>
         </li>
       </ul>
     </div>
   </section>
+  <div class="contact" id="contact"></div>
   <script
 			  src="https://code.jquery.com/jquery-3.3.1.min.js"
 			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 			  crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="../script.js"></script>
 </body>
 </html>
