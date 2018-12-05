@@ -268,6 +268,26 @@ section {
   padding: 10px;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 350px;
+  margin: 60px auto;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+footer img {
+  margin-left: 10px;
+  width: 125px;
+}
+
 @media (max-width: 1200px) {
   .mobile-show {
     display: block;
